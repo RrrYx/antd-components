@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <a-button>aaa</a-button>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
