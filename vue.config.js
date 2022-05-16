@@ -7,4 +7,11 @@ module.exports = defineConfig({
     port: 8080,
     host: "localhost",
   },
+  css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
